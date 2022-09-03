@@ -1,28 +1,45 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="page-container">
+    <Aside/>
+
+    <!-- 主要容器 -->
+    <div class="main-content">
+      <!-- 头部内容 -->
+      <Header/>
+
+      <!-- 常用推荐 -->
+
+      <!-- 单组件标题 -->
+      <Main/>
+
+      <!--END UED团队 -->
+      <!-- Main Footer -->
+      <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+      <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+      <!-- Or class "fixed" to  always fix the footer to the end of page -->
+
+      <!-- 根部 -->
+      <Footer/>
+      
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Aside from '@/components/aside'
+import Header from '@/components/header'
+import Main from '@/components/main'
+import Footer from '@/components/footer'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    Aside,
+    Header,
+    Main,
+    Footer
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
