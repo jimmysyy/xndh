@@ -21,11 +21,7 @@
       <div class="xe-comment-entry">
         <!-- 网站图标 -->
         <a class="xe-user-img">
-          <img
-            src="@/assets/logo.png"
-            class="lozad img-circle"
-            width="40"
-          />
+          <img src="@/assets/logo.png" class="lozad img-circle" width="40" />
         </a>
         <!-- 网站介绍 -->
         <div class="xe-comment">
@@ -43,6 +39,7 @@
 
 <script>
 export default {
+  name: "Detail",
   props: ["list"],
   methods: {
     jump() {

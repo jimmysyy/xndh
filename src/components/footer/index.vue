@@ -7,7 +7,7 @@
           <div class="footer-text">
             &copy; 2020-2022
             <a href="/about.html"><strong>XNDH</strong></a> design by
-            <a href="https://www.viggoz.com" target="_blank"
+            <a href="http://imxiniu.top" target="_blank"
               ><strong>Jimmy</strong></a
             >
             <!--  - Purchase for only <strong>23$</strong> -->

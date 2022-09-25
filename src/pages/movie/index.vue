@@ -30,9 +30,9 @@ export default {
                 { id: "007", title: "在线之家", url: "https://zxzj.vip/", ps: '看剧好'},
                 { id: "008", title: "蚂蚁影视", url: "https://www.91mayi.com/", ps: ''},
                 { id: "009", title: "高清MP4吧", url: "https://www.mp4pa.com/", ps: '一般'},
-                { id: "010", title: "厂长资源", url: "https://qianoo.cn/", ps: '加载很快'},
+                // { id: "010", title: "厂长资源", url: "https://qianoo.cn/", ps: '加载很快'},
                 { id: "011", title: "片吧影视", url: "https://www.pbpb.tv/", ps: ''},
-                { id: "012", title: "剧白白", url: "https://jubaibai.cc/", ps: ''},
+                // { id: "012", title: "剧白白", url: "https://jubaibai.cc/", ps: ''},
                 // { id: "", title: "", url: "", ps: ''},
             ], 
             movieDownloadlist:[

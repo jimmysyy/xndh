@@ -7,7 +7,7 @@
     <!-- 单列网址容器，一个row代表一列，已经解决了 -->
     <div class="row">
       <!-- 单个网站容器 -->
-      <language v-for="site in languagelist" :key="site.id" :list="site" />
+      <Detail v-for="site in languagelist" :key="site.id" :list="site" />
     </div>
     <br />
 
@@ -18,7 +18,7 @@
     <!-- 单列网址容器，一个row代表一列，已经解决了 -->
     <div class="row">
       <!-- 单个网站容器 -->
-      <graduate v-for="site in graduatelist" :key="site.id" :list="site" />
+      <Detail v-for="site in graduatelist" :key="site.id" :list="site" />
     </div>
     <br />
 
@@ -29,24 +29,18 @@
     <!-- 单列网址容器，一个row代表一列，已经解决了 -->
     <div class="row">
       <!-- 单个网站容器 -->
-      <studyhot v-for="site in studyhotlist" :key="site.id" :list="site" />
+      <Detail v-for="site in studyhotlist" :key="site.id" :list="site" />
     </div>
     <br />
   </div>
 </template>
 
 <script>
-import language from "./language";
-import graduate from "./graduate"
-import studyhot from "./studyhot"
 
 
 export default {
   props: ['languagelist','graduatelist','studyhotlist'],
   components: {
-    language,
-    graduate,
-    studyhot
   },
 };
 </script>

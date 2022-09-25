@@ -5,6 +5,7 @@
         :moneylist="moneylist"
         :socializinglist="socializinglist"
         :gameslist="gameslist"
+        :videolist="videolist"
       />
   </div>
 </template>
@@ -21,12 +22,14 @@ export default {
             moneylist:[
                 { id: "001", title: "什么值得买", url: "https://www.smzdm.com/", ps: '价比三家再领个卷'},
                 { id: "002", title: "什么值得读", url: "https://shenmezhidedu.com/", ps: '看看最近有啥看的'},
+                { id: "003", title: "果核剥壳", url: "https://www.ghxi.com/", ps: '一些软件分享'},
             ],
             socializinglist:[
                 { id: "001", title: "微博", url: "https://weibo.com/", ps: ''},
                 { id: "002", title: "知乎", url: "https://www.zhihu.com/", ps: ''},
                 { id: "003", title: "贴吧", url: "https://tieba.baidu.com/", ps: ''},
                 { id: "004", title: "豆瓣", url: "https://www.douban.com/", ps: ''},
+                { id: "005", title: "v2ex", url: "https://www.v2ex.com/", ps: ''},
                 // { id: "", title: "", url: "", ps: ''},
             ],
             gameslist:[

@@ -41,6 +41,12 @@
               <span class="title">站内广播</span>
             </a>
           </li>
+          <li>
+            <router-link to="/totalbook" class="smooth">
+              <i class="linecons-doc"></i>
+              <span class="title">book</span>
+            </router-link>
+          </li>
 
           <!-- 下面是有分栏 -->
           <!-- 第一个分栏：看影视剧 -->
@@ -105,6 +111,11 @@
               <li>
                 <a href="#网络小说" class="smooth">
                   <span class="title">网络小说</span>
+                </a>
+              </li>
+              <li>
+                <a href="#阅读好站" class="smooth">
+                  <span class="title">阅读好站</span>
                 </a>
               </li>
             </ul>
@@ -187,6 +198,11 @@
                   <span class="title">游戏娱乐</span>
                 </a>
               </li>
+              <li>
+                <a href="#视频娱乐" class="smooth">
+                  <span class="title">视频娱乐</span>
+                </a>
+              </li>
             </ul>
           </li>
           
@@ -203,6 +219,14 @@
                 </a>
               </li>
             </ul>
+          </li>
+
+          <!-- 网站墓碑 -->
+          <li>
+            <a href="#网站墓碑" class="smooth">
+              <i class="linecons-doc"></i>
+              <span class="title">网站墓碑</span>
+            </a>
           </li>
           
           <li>
