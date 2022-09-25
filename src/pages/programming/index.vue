@@ -30,7 +30,7 @@ export default {
                  { id: "008", title: "前端知识体系", url: "https://book.mzh.ren/front-end-knowledge-system.html", ps: '一些前端的知识'},
                  { id: "009", title: "前端开发常用", url: "https://github.com/MichealWayne/fe-tools", ps: '一些前端的网站'},
                  { id: "010", title: "前端书籍集合", url: "https://github.com/MichealWayne/books", ps: '一些前端的图书'},
-                 { id: "011", title: "", url: "", ps: ''},
+                 { id: "011", title: "前端项目", url: "https://codebase.show/projects/realworld", ps: '英文前端项目'},
                 //  { id: "", title: "", url: "", ps: ''},
             ],
             backendlist:[
