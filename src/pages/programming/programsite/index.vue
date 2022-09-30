@@ -1,13 +1,24 @@
 <template>
   <div>
     <h4 class="text-gray">
-      <i class="linecons-note" style="margin-right: 7px" id="前端"></i
-      >前端
+      <i class="linecons-note" style="margin-right: 7px" id="前端学习"></i
+      >前端学习
     </h4>
     <!-- 单列网址容器，一个row代表一列，已经解决了 -->
     <div class="row">
       <!-- 单个网站容器 -->
       <Detail v-for="site in frontlist" :key="site.id" :list="site" />
+    </div>
+    <br />
+
+    <h4 class="text-gray">
+      <i class="linecons-note" style="margin-right: 7px" id="前端文档"></i
+      >前端文档
+    </h4>
+    <!-- 单列网址容器，一个row代表一列，已经解决了 -->
+    <div class="row">
+      <!-- 单个网站容器 -->
+      <Detail v-for="site in qianduanwdlist" :key="site.id" :list="site" />
     </div>
     <br />
 
@@ -43,12 +54,14 @@
       <Detail v-for="site in documentationlist" :key="site.id" :list="site" />
     </div>
     <br />
+
+
   </div>
 </template>
 
 <script>
 export default {
-  props: ['frontlist','backendlist','ittoollist','documentationlist'],
+  props: ['frontlist','backendlist','ittoollist','documentationlist','qianduanwdlist'],
   components: {
     
   },

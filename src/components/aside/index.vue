@@ -154,8 +154,13 @@
             </a>
             <ul>
               <li>
-                <a href="#前端" class="smooth">
-                  <span class="title">前端</span>
+                <a href="#前端学习" class="smooth">
+                  <span class="title">前端学习</span>
+                </a>
+              </li>
+              <li>
+                <a href="#前端文档" class="smooth">
+                  <span class="title">前端文档</span>
                 </a>
               </li>
               <li>

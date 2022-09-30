@@ -6,6 +6,7 @@
         :backendlist="backendlist"
         :ittoollist="ittoollist"
         :documentationlist="documentationlist"
+        :qianduanwdlist="qianduanwdlist"
       />
   </div>
 </template>
@@ -19,18 +20,32 @@ export default {
     },
     data(){
         return{
+            qianduanwdlist:[
+                { id: "001", title: "webpack文档", url: "https://webpack.docschina.org/", ps: 'webpack的中文文档'},
+                { id: "002", title: "Vue.js", url: "https://cn.vuejs.org/", ps: 'vue官方'},
+                { id: "003", title: "W3shcool", url: "https://www.w3school.com.cn/", ps: ''},
+                { id: "004", title: "Vant 3", url: "https://vant-ui.github.io/vant/#/zh-CN", ps: '移动端的Vue组件库'},
+                { id: "006", title: "Element-Ui", url: "https://element.eleme.cn/#/zh-CN/component/installation", ps: 'element-ui组件库'},
+                { id: "007", title: "Bootstrap3文档", url: "https://v3.bootcss.com/", ps: ''},
+                { id: "008", title: "Flutter开发文档", url: "https://flutter.cn/docs", ps: ''},
+                { id: "009", title: "axios中文文档", url: "http://www.axios-js.com/zh-cn/docs/", ps: ''},
+                { id: "010", title: "ReactJs文档", url: "https://zh-hans.reactjs.org/", ps: ''},
+                { id: "011", title: "BootCDN开源库", url: "https://www.bootcdn.cn/", ps: ''},
+                { id: "012", title: "Electron中文文档", url: "https://www.electronjs.org/zh/docs/latest", ps: ''},
+                { id: "013", title: "ECharts文档", url: "https://echarts.apache.org/handbook/zh/get-started/", ps: '基于 JavaScript 的开源可视化图表库'},
+            ],
             frontlist:[
-                 { id: "001", title: "Vue.js", url: "https://cn.vuejs.org/", ps: 'vue官方'},
-                 { id: "002", title: "W3shcool", url: "https://www.w3school.com.cn/", ps: ''},
                  { id: "003", title: "ES6入门教程", url: "https://es6.ruanyifeng.com/", ps: '阮一峰的es6'},
-                 { id: "004", title: "Vant 3", url: "https://vant-ui.github.io/vant/#/zh-CN", ps: '移动端的Vue组件库'},
+                 { id: "012", title: "Nodejs技术栈", url: "www.nodejs.red", ps: '关于nodejs学习的分享'},
+                 { id: "013", title: "Nodejs学习笔记及经验总结", url: "https://github.com/chyingp/nodejs-learning-guide", ps: ''},
+                 
                  { id: "005", title: "前端面试总结", url: "https://blog.csdn.net/weixin_43638968/article/details/107518108", ps: ''},
-                 { id: "006", title: "Element-Ui", url: "https://element.eleme.cn/#/zh-CN/component/installation", ps: 'element-ui组件库'},
                  { id: "007", title: "NPM", url: "https://www.npmjs.com/", ps: 'npmjs'},
                  { id: "008", title: "前端知识体系", url: "https://book.mzh.ren/front-end-knowledge-system.html", ps: '一些前端的知识'},
                  { id: "009", title: "前端开发常用", url: "https://github.com/MichealWayne/fe-tools", ps: '一些前端的网站'},
                  { id: "010", title: "前端书籍集合", url: "https://github.com/MichealWayne/books", ps: '一些前端的图书'},
                  { id: "011", title: "前端项目", url: "https://codebase.show/projects/realworld", ps: '英文前端项目'},
+                 
                 //  { id: "", title: "", url: "", ps: ''},
             ],
             backendlist:[

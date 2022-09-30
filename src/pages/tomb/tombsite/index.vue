@@ -31,7 +31,7 @@
         </div>
       </div>
       <!-- 单个网站容器 -->
-      <Detail v-for="site in zlibrarylist" :key="site.id" :list="site" />
+      <!-- <Detail v-for="site in zlibrarylist" :key="site.id" :list="site" /> -->
     </div>
     <br />
     <!-- 单列网址容器，一个row代表一列，已经解决了 -->
