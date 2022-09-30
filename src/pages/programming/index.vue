@@ -36,9 +36,9 @@ export default {
             ],
             frontlist:[
                  { id: "003", title: "ES6入门教程", url: "https://es6.ruanyifeng.com/", ps: '阮一峰的es6'},
-                 { id: "012", title: "Nodejs技术栈", url: "www.nodejs.red", ps: '关于nodejs学习的分享'},
+                 { id: "012", title: "Nodejs技术栈", url: "https://www.nodejs.red", ps: '关于nodejs学习的分享'},
                  { id: "013", title: "Nodejs学习笔记及经验总结", url: "https://github.com/chyingp/nodejs-learning-guide", ps: ''},
-                 
+                 { id: "014", title: "bruce前端笔记", url: "https://brucecai55520.gitee.io/bruceblog/", ps: '一些前端笔记'},
                  { id: "005", title: "前端面试总结", url: "https://blog.csdn.net/weixin_43638968/article/details/107518108", ps: ''},
                  { id: "007", title: "NPM", url: "https://www.npmjs.com/", ps: 'npmjs'},
                  { id: "008", title: "前端知识体系", url: "https://book.mzh.ren/front-end-knowledge-system.html", ps: '一些前端的知识'},
