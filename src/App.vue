@@ -6,7 +6,7 @@
     <div class="main-content">
       <!-- 头部内容 -->
       <Header/>
-      <router-view></router-view>
+      <!-- <router-view></router-view> -->
 
       <!-- 常用推荐 -->
 
